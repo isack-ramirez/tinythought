@@ -1,21 +1,19 @@
 import React from 'react';
 import styled from "styled-components";
-
-
-const Profile = () => {
+const Discover = () => {
     return (
         <>
-        <styledProfile>
-            <Heading>Profile</Heading>
-        </styledProfile>
+        <styledDiscover>
+            <Heading>Discover</Heading>
+        </styledDiscover>
             
         </>
     );
 };
 
-export default Profile;
 
-const styledProfile = styled.div`
+
+const styledDiscover = styled.div`
   min-height: 100vh;
   width: 100vw;
   background-color: white;
@@ -39,4 +37,4 @@ const Heading = styled.h1`
   -ms-user-select: none;
 `;
 
-
+export default Discover;

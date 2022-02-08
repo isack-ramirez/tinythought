@@ -4,14 +4,14 @@ import styled from "styled-components";
 const Feed = () => {
   return <>
     
-    <styledFeed>
+    <Styledfeed>
         <Heading>Feed:</Heading>
-    </styledFeed>
+    </Styledfeed>
 
   </>;
 };
 
-const styledFeed = styled.div`
+const Styledfeed = styled.div`
   min-height: 100vh;
   width: 100vw;
   background-color: white;
