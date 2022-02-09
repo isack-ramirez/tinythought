@@ -3,9 +3,9 @@ import styled from "styled-components";
 const Discover = () => {
     return (
         <>
-        <styledDiscover>
+        <Styleddiscover>
             <Heading>Discover</Heading>
-        </styledDiscover>
+        </Styleddiscover>
             
         </>
     );
@@ -13,7 +13,7 @@ const Discover = () => {
 
 
 
-const styledDiscover = styled.div`
+const Styleddiscover = styled.div`
   min-height: 100vh;
   width: 100vw;
   background-color: white;

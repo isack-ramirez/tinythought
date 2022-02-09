@@ -5,9 +5,9 @@ import styled from "styled-components";
 const Profile = () => {
     return (
         <>
-        <styledProfile>
+        <Styledprofile>
             <Heading>Profile</Heading>
-        </styledProfile>
+        </Styledprofile>
             
         </>
     );
@@ -15,7 +15,7 @@ const Profile = () => {
 
 export default Profile;
 
-const styledProfile = styled.div`
+const Styledprofile = styled.div`
   min-height: 100vh;
   width: 100vw;
   background-color: white;

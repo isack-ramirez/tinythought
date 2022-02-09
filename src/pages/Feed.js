@@ -1,15 +1,17 @@
-import React from "react";
+import React from 'react';
 import styled from "styled-components";
-
 const Feed = () => {
-  return <>
-    
-    <Styledfeed>
-        <Heading>Feed:</Heading>
-    </Styledfeed>
-
-  </>;
+    return (
+        <>
+        <Styledfeed>
+            <Heading>Feed</Heading>
+        </Styledfeed>
+            
+        </>
+    );
 };
+
+
 
 const Styledfeed = styled.div`
   min-height: 100vh;
@@ -34,4 +36,5 @@ const Heading = styled.h1`
   -moz-user-select: none;
   -ms-user-select: none;
 `;
+
 export default Feed;
